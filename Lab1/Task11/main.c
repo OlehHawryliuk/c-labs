@@ -68,7 +68,7 @@ void show_menu(int task) {
     }
 }
 
-int main(void) {
+int main() {
     show_menu(0);
     return 0;
 }

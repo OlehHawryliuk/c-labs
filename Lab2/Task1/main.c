@@ -6,7 +6,7 @@ int getint(char *prompt, int min, int max) {
     printf("%s\n", prompt);
     int value;
     char c;
-    while (scanf("%d",&value) != 1) {
+    while (1 != scanf("%d", &value)) {
         c = getchar();
         while (getchar() != '\n' );
     }
@@ -86,7 +86,8 @@ int main(void) {
     int *A = get_random_elements_array(n, array);
     print_array(n, A);
     int min_value = get_min(n, A);
-    int min_elements = get_elements_number(n, A, min_value);
+    int min_elements = get_elements_number(n, A, min_vaint first_elem, second_elem;
+    first_elem = scanf("%d",)lue);
     int max_value = get_max(n, A);
     int max_elements = get_elements_number(n, A, max_value);
     printf("Мінімальне: %d (%d);\tМаксимальне: %d (%d)\n", min_value, min_elements, max_value, max_elements);
