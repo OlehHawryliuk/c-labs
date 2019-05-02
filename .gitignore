@@ -1,5 +1,9 @@
 /.idea/
-/Lab1/Task1/cmake-build-debug/
-/Lab1/Task2/cmake-build-debug/
-/Lab2/Task1/cmake-build-debug/
-/Lab2/Task2/cmake-build-debug/
+/Lab1/Task1/cmake/
+/Lab1/Task2/cmake/
+/Lab2/Task1/cmake/
+/Lab2/Task2/cmake/
+/Lab3/cmake/
+/Lab4/Task1/cmake/
+/Lab4/Task2/cmake/
+/Lab5/cmake/

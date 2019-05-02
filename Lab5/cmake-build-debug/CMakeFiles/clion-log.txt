@@ -1,4 +1,0 @@
-/home/oleh/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/oleh/CLionProjects/c-labs/Lab5
--- Configuring done
--- Generating done
--- Build files have been written to: /home/oleh/CLionProjects/c-labs/Lab5/cmake-build-debug
