@@ -1,19 +1,17 @@
 #include <stdio.h>
 
 int main(void) {
-    char c;
-    char f;
-    char b;
+    char c, f, b;
     unsigned char n;
     unsigned int UnitStateWord;
     printf("Уведіть номер каналу (0-15): ");
-    scanf("%d", &c);
+    scanf("%c", &c);
     printf("Уведіть ознаку помилки (0/1): ");
-    scanf("%d", &f);
+    scanf("%c", &f);
     printf("Уведіть код причини переривання (0-255): ");
-    scanf("%d", &b);
+    scanf("%c", &b);
     printf("Уведіть озаку завершння (0/1): ");
-    scanf("%d", &n);
+    scanf("%c", &n);
 
     UnitStateWord = ((unsigned int) c & 0x1F) << 12;
     UnitStateWord |= ((unsigned int) f & 1) << 11;
