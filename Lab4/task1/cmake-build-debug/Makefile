@@ -48,10 +48,10 @@ RM = /home/oleh/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/c
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/oleh/CLionProjects/c-labs/Lab3
+CMAKE_SOURCE_DIR = /home/oleh/CLionProjects/c-labs/Lab4/task1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/oleh/CLionProjects/c-labs/Lab3/cmake-build-debug
+CMAKE_BINARY_DIR = /home/oleh/CLionProjects/c-labs/Lab4/task1/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oleh/CLionProjects/c-labs/Lab3/cmake-build-debug/CMakeFiles /home/oleh/CLionProjects/c-labs/Lab3/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oleh/CLionProjects/c-labs/Lab4/task1/cmake-build-debug/CMakeFiles /home/oleh/CLionProjects/c-labs/Lab4/task1/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oleh/CLionProjects/c-labs/Lab3/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oleh/CLionProjects/c-labs/Lab4/task1/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Lab3
+# Target rules for targets named Lab4.task1
 
 # Build rule for target.
-Lab3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Lab3
-.PHONY : Lab3
+Lab4.task1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Lab4.task1
+.PHONY : Lab4.task1
 
 # fast build rule for target.
-Lab3/fast:
-	$(MAKE) -f CMakeFiles/Lab3.dir/build.make CMakeFiles/Lab3.dir/build
-.PHONY : Lab3/fast
+Lab4.task1/fast:
+	$(MAKE) -f CMakeFiles/Lab4.task1.dir/build.make CMakeFiles/Lab4.task1.dir/build
+.PHONY : Lab4.task1/fast
 
 main.o: main.c.o
 
@@ -129,7 +129,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) -f CMakeFiles/Lab3.dir/build.make CMakeFiles/Lab3.dir/main.c.o
+	$(MAKE) -f CMakeFiles/Lab4.task1.dir/build.make CMakeFiles/Lab4.task1.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -138,7 +138,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) -f CMakeFiles/Lab3.dir/build.make CMakeFiles/Lab3.dir/main.c.i
+	$(MAKE) -f CMakeFiles/Lab4.task1.dir/build.make CMakeFiles/Lab4.task1.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -147,7 +147,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) -f CMakeFiles/Lab3.dir/build.make CMakeFiles/Lab3.dir/main.c.s
+	$(MAKE) -f CMakeFiles/Lab4.task1.dir/build.make CMakeFiles/Lab4.task1.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -157,7 +157,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... Lab3"
+	@echo "... Lab4.task1"
 	@echo "... edit_cache"
 	@echo "... main.o"
 	@echo "... main.i"

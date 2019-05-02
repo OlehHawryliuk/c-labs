@@ -5,16 +5,6 @@
 #define ROWS 3
 #define COLUMNS 6
 
-int get_int(int row, int column) {
-    printf("[%d][%d]:  ", row, column);
-    int value;
-    char c;
-    while (scanf("%d",&value) != 1) {
-        c = getchar();
-        while (getchar() != '\n' );
-    }
-    return value;
-}
 int getint(char * prompt, int min, int max) {
     printf("%s\n", prompt);
     int value;

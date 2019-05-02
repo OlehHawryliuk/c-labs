@@ -22,7 +22,8 @@ int random_number(int min_num, int max_num) {
     if (min_num < max_num) {
         low_num = min_num;
         hi_num = max_num + 1;
-    } else {
+    }
+    else {
         low_num = max_num + 1;
         hi_num = min_num;
     }

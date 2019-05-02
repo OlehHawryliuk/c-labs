@@ -217,6 +217,12 @@ Lab5_BINARY_DIR:STATIC=/home/oleh/CLionProjects/c-labs/Lab5/cmake-build-debug
 //Value Computed by CMake
 Lab5_SOURCE_DIR:STATIC=/home/oleh/CLionProjects/c-labs/Lab5
 
+//Value Computed by CMake
+Lab7_BINARY_DIR:STATIC=/home/oleh/CLionProjects/c-labs/Lab5/cmake-build-debug
+
+//Value Computed by CMake
+Lab7_SOURCE_DIR:STATIC=/home/oleh/CLionProjects/c-labs/Lab5
+
 //Path to a program.
 ProcessorCount_cmd_getconf:FILEPATH=/usr/bin/getconf
 

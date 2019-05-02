@@ -2,22 +2,28 @@
 #include <stdlib.h>
 
 int element_sum(int a, int b) {
-    int p, sum ;
-    sum = a;
-    for (p = 0; p < b; ++p) {
-    sum++;
+    int c, i = b, g = a;
+    c++;
+    if ( a ==  0)
+        return i;
+    if ( b == 0)
+        return g;
+    if (c < a) {
+        for (int i = 0; i < a; ++i)
+            return element_sum(a, c);}
+        else if (c == a) {
+             for (int j = 0; j < b; ++j)
+                 c++;
     }
-        return sum;
-    }
-
-
-
+    return c;
+}
     int main(){
+    int first_elem, second_elem, result;
     printf("введіть 1 елемент\n");
-    int first_elem = scanf("%d", &first_elem );
+    scanf("%d", &first_elem );
     printf("введіть 2 елемент\n");
-    int second_elem = scanf("%d", &second_elem );
-    int result = element_sum(first_elem, second_elem);
+    scanf("%d", &second_elem );
+    result = element_sum(first_elem, second_elem);
     printf("Сума: %d" , result );
     return 0;
 

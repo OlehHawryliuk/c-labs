@@ -9,6 +9,8 @@
 /home/oleh/CLionProjects/c-labs/Lab5/main.c
 stdio.h
 -
+string.h
+-
 stdlib.h
 -
 
